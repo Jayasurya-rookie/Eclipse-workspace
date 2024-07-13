@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean id="ss" class="com.kodnest.bean.Employee"> 
+  <property name="organisations">
+  <map>
+  <entry key="001" value="TCS"></entry>
+  <entry key="002" value="GOOGLE"></entry>
+  <entry key="003" value="KODNEST"></entry>
+	
+  </map>
+
+ 
+ </property>
+
+  </bean>
+ 
+
+</beans>
+
+
+
+  <!--  for hash set <set>
+  
+  
+	  <value>Project-1</value>
+	    <value>Project-2</value>
+	      <value>Project-3</value>
+  </set>
+-->
